@@ -1,6 +1,7 @@
 {
     "name": "runian/dummy",
     "description": "A placeholder package for reserving the vendor name.",
+    "license": "proprietary",
     "require": {}
 }
 
