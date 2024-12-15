@@ -1,7 +1,16 @@
 {
-    "name": "runian/dummy",
-    "description": "A placeholder package for reserving the vendor name.",
     "license": "proprietary",
-    "require": {}
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Runian\\Dummy\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": ["dummy", "placeholder"]
 }
-
